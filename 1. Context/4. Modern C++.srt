@@ -1,0 +1,244 @@
+1
+00:00:01,000 --> 00:00:08,000
+There's just one problem when you're talking about "Why C++?", and that's the
+
+2
+00:00:08,000 --> 00:00:12,000
+other side of the question, "Why not C++?"
+
+3
+00:00:12,000 --> 00:00:15,000
+It's all power, performance, control.
+
+4
+00:00:15,000 --> 00:00:16,000
+It's popular.
+
+5
+00:00:16,000 --> 00:00:17,000
+It's general purpose.
+
+6
+00:00:17,000 --> 00:00:19,000
+Why isn't everybody using it?
+
+7
+00:00:19,000 --> 00:00:24,000
+Well, you know you may have heard that it's hard.
+
+8
+00:00:24,000 --> 00:00:28,000
+Mmm…I got to kind of disagree.
+
+9
+00:00:28,000 --> 00:00:33,000
+Modern C++ is really not hard.
+
+10
+00:00:33,000 --> 00:00:39,000
+What's probably got you nervous about C++ is that someone else has told you, or
+
+11
+00:00:39,000 --> 00:00:41,000
+that you remember from a long time ago, are things that really aren't in
+
+12
+00:00:41,000 --> 00:00:42,000
+Modern C++.
+
+13
+00:00:42,000 --> 00:00:48,000
+So the first thing about Modern C++ is using the Standard Library.
+
+14
+00:00:48,000 --> 00:00:50,000
+The Standard Library has a string class in it.
+
+15
+00:00:50,000 --> 00:00:55,000
+The Standard Library has great collections and smart pointers that take care of
+
+16
+00:00:55,000 --> 00:01:01,000
+memory management, like you do not have to delete memory that you allocated with NuGet.
+
+17
+00:01:01,000 --> 00:01:05,000
+And it has File IO, Screen IO, and far too much to list.
+
+18
+00:01:05,000 --> 00:01:09,000
+The same way if you've done .NET programming, it comes with a library of bits and
+
+19
+00:01:09,000 --> 00:01:11,000
+pieces.
+
+20
+00:01:11,000 --> 00:01:15,000
+You've done Java programming; it comes with a library of bits of pieces, and C++
+
+21
+00:01:15,000 --> 00:01:19,000
+comes with a library of bits of pieces, called the Standard Library.
+
+22
+00:01:19,000 --> 00:01:22,000
+This isn't something that you get around to later once you're good at it.
+
+23
+00:01:22,000 --> 00:01:27,000
+This is something you do from the beginning, using these out-of-the-box capabilities
+
+24
+00:01:27,000 --> 00:01:31,000
+for your string manipulations for your collections to spare you the trouble of
+
+25
+00:01:31,000 --> 00:01:34,000
+memory management, or pointer arithmetic, or a lot of the stuff that people kind
+
+26
+00:01:34,000 --> 00:01:36,000
+of get afraid of.
+
+27
+00:01:36,000 --> 00:01:42,000
+Modern C++ is powerful, but it's still readable, and it's not dangerous.
+
+28
+00:01:42,000 --> 00:01:47,000
+Managing memory yourself, that's last century C++.
+
+29
+00:01:47,000 --> 00:01:49,000
+That is not what we're going to be doing.
+
+30
+00:01:49,000 --> 00:01:55,000
+It's not what is expected of people who are writing ordinary C++ application.
+
+31
+00:01:55,000 --> 00:01:58,000
+A little bit different if you're writing a library, you just want to write an
+
+32
+00:01:58,000 --> 00:01:59,000
+application.
+
+33
+00:01:59,000 --> 00:02:01,000
+You're not going to manage memory, and that means you're not
+
+34
+00:02:01,000 --> 00:02:05,000
+going get all caught-up in a lot of the dangers of managing your own memory,
+
+35
+00:02:05,000 --> 00:02:10,000
+pointer arithmetic, those kinds of things.
+
+36
+00:02:10,000 --> 00:02:16,000
+In fact, when I show Modern C++ to people who know C# or to people who know Java,
+
+37
+00:02:16,000 --> 00:02:22,000
+what they tend to say with a tremendous amount of surprise is, "Hey, I can read that!"
+
+38
+00:02:22,000 --> 00:02:23,000
+and they're not expecting it.
+
+39
+00:02:23,000 --> 00:02:26,000
+We've all heard the joke, or at least those of us who work in C++ have heard the
+
+40
+00:02:26,000 --> 00:02:31,000
+joke, it's like a bunch of comic book characters swearing at each other, and
+
+41
+00:02:31,000 --> 00:02:34,000
+we do have a lot of different pieces of punctuation in C++, and they serve
+
+42
+00:02:34,000 --> 00:02:37,000
+purposes, rather than just using dot for everything.
+
+43
+00:02:37,000 --> 00:02:43,000
+But when you look at Modern C++, you'll be able to read it, if you know C# or Java.
+
+44
+00:02:43,000 --> 00:02:46,000
+What's cool is how much faster it is.
+
+45
+00:02:46,000 --> 00:02:49,000
+Let me just give you one example.
+
+46
+00:02:49,000 --> 00:02:54,000
+Java and C# both have generics, the idea that you have a list of some things
+
+47
+00:02:54,000 --> 00:02:59,000
+or a queue of some things, and C++ has them, too.
+
+48
+00:02:59,000 --> 00:03:01,000
+C++ has templates.
+
+49
+00:03:01,000 --> 00:03:04,000
+Now generics are resolved at run time.
+
+50
+00:03:04,000 --> 00:03:09,000
+That means every time your application runs, some number of cycles are going
+
+51
+00:03:09,000 --> 00:03:11,000
+to be spent figuring out, you know, what type do I use?
+
+52
+00:03:11,000 --> 00:03:12,000
+What method do I call?
+
+53
+00:03:12,000 --> 00:03:14,000
+What's going on here?
+
+54
+00:03:14,000 --> 00:03:17,000
+Templates in C++ are resolved at compile time.
+
+55
+00:03:17,000 --> 00:03:22,000
+That means those cycles are not spent at run time.
+
+56
+00:03:22,000 --> 00:03:26,000
+The application's just plain faster, as a result, and those kind of advantages
+
+57
+00:03:26,000 --> 00:03:29,000
+keep showing up when you're working in C++.
+
+58
+00:03:29,000 --> 00:03:32,000
+That's why it's the first choice for speed of execution.
+
+59
+00:03:32,000 --> 00:03:37,000
+So if it's readable, it's not complicated, doesn't have to be hard, and is just
+
+60
+00:03:37,000 --> 00:03:38,000
+flat out faster.
+
+61
+00:03:38,000 --> 00:59:00,000
+Now you're starting to see why C++ is such a popular language.
+

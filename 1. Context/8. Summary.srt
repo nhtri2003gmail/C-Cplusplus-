@@ -1,0 +1,52 @@
+1
+00:00:01,000 --> 00:00:04,000
+Are you ready to write some code?
+
+2
+00:00:04,000 --> 00:00:09,000
+I've shown you that C++ is a powerful language that's used by ten million developers
+
+3
+00:00:09,000 --> 00:00:16,000
+and more, and it's rich in libraries and sample code, works across a variety of
+
+4
+00:00:16,000 --> 00:00:19,000
+platforms, and gives you tremendous performance.
+
+5
+00:00:19,000 --> 00:00:21,000
+That's what it's all about.
+
+6
+00:00:21,000 --> 00:00:25,000
+Sure, you may have heard that it's a difficult language, but it doesn't have to be,
+
+7
+00:00:25,000 --> 00:00:28,000
+especially, if you write Modern C++.
+
+8
+00:00:28,000 --> 00:00:32,000
+It's clean. It's simple, and it lets the Standard Library do a lot of the work.
+
+9
+00:00:32,000 --> 00:00:38,000
+Things that you think are too different to do by hand, you probably don't have to do by hand.
+
+10
+00:00:38,000 --> 00:00:45,000
+Things that you think are hard to read if you do it 1990 C++ way, don't have to be
+
+11
+00:00:45,000 --> 00:00:48,000
+hard to read at all, if you do it the Modern C++ way.
+
+12
+00:00:48,000 --> 00:00:52,000
+That's what I'm going to focus on and show you, and you're going to be productive
+
+13
+00:00:52,000 --> 00:59:00,000
+from the very beginning using C++.
+

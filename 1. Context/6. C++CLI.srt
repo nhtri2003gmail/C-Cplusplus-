@@ -1,0 +1,160 @@
+1
+00:00:02,000 --> 00:00:07,000
+I'd like to clear up a little nomenclature before we dig into the actual
+
+2
+00:00:07,000 --> 00:00:11,000
+heavy-duty details of syntax, and library, and all of that.
+
+3
+00:00:11,000 --> 00:00:17,000
+You may have heard of C++/CLI, and to be honest, people sometimes
+
+4
+00:00:17,000 --> 00:00:20,000
+mis-abbreviate this or they put dots in there.
+
+5
+00:00:20,000 --> 00:00:24,000
+If you've heard C++ and CL something together, this is probably what they were
+
+6
+00:00:24,000 --> 00:00:26,000
+trying to remember.
+
+7
+00:00:26,000 --> 00:00:30,000
+You know, there are a number of languages that are sort of based on C++.
+
+8
+00:00:30,000 --> 00:00:34,000
+After all, there's this huge pool of developers that already know the syntax,
+
+9
+00:00:34,000 --> 00:00:39,000
+so you say, "My language has the same syntax as C++, except for this one little
+
+10
+00:00:39,000 --> 00:00:44,000
+thing," and very often, these variants will work with libraries that already
+
+11
+00:00:44,000 --> 00:00:47,000
+out there and with tools that are already out there, maybe with a little bit
+
+12
+00:00:47,000 --> 00:00:49,000
+of extension or modification.
+
+13
+00:00:49,000 --> 00:00:56,000
+And this is a powerful way to bring new capabilities to that pool of C++ developers.
+
+14
+00:00:56,000 --> 00:01:01,000
+And C++/CLI is one of those variants, and it makes managed code.
+
+15
+00:01:01,000 --> 00:01:05,000
+So once upon a time, you know, before there was a .NET framework, before there was
+
+16
+00:01:05,000 --> 00:01:11,000
+Java, there was C++, and it compiled to machine code on the machine that you
+
+17
+00:01:11,000 --> 00:01:13,000
+were building on.
+
+18
+00:01:13,000 --> 00:01:17,000
+Nowadays, we call that native code, because we need to distinguish that native code
+
+19
+00:01:17,000 --> 00:01:22,000
+that actually runs directly on the metal from code that runs against some kind of a
+
+20
+00:01:22,000 --> 00:01:28,000
+run time, whether it's a Java run time, or C#.NET framework run time, or you're
+
+21
+00:01:28,000 --> 00:01:33,000
+writing in DB.NET and running against the .NET frameworks run time.
+
+22
+00:01:33,000 --> 00:01:38,000
+Normal ordinary C++ produces native code, and Microsoft has compilers that
+
+23
+00:01:38,000 --> 00:01:42,000
+come in Visual Studio that make native code.
+
+24
+00:01:42,000 --> 00:01:48,000
+But it also has a set of tools inside Visual Studio that can make managed code
+
+25
+00:01:48,000 --> 00:01:51,000
+from C++ source code.
+
+26
+00:01:51,000 --> 00:01:56,000
+Managed code that can be easily called from C#, or DB, or any other kind of
+
+27
+00:01:56,000 --> 00:01:58,000
+managed code you have kicking around.
+
+28
+00:01:58,000 --> 00:02:03,000
+It does this with some extensions to the language itself, so it's not C++, it's
+
+29
+00:02:03,000 --> 00:02:08,000
+C++/CLI, because it's a little different, has a few extra key words in it,
+
+30
+00:02:08,000 --> 00:02:10,000
+a few extra pieces of punctuation.
+
+31
+00:02:10,000 --> 00:02:14,000
+And this is a fantastic way to take a native library that was maybe written
+
+32
+00:02:14,000 --> 00:02:18,000
+a long time ago, and wrap it up, put a wrapper around it to make it easy to
+
+33
+00:02:18,000 --> 00:02:22,000
+call from .NET code.
+
+34
+00:02:22,000 --> 00:02:25,000
+I'm not going to cover C++/CLI at all.
+
+35
+00:02:25,000 --> 00:02:30,000
+If you learn C++, then you basically know C++/CLI, as well.
+
+36
+00:02:30,000 --> 00:02:33,000
+You just need to learn the few extra little pieces of punctuation and key
+
+37
+00:02:33,000 --> 00:02:36,000
+words, and you're good to go, and you'll be in a position to write those
+
+38
+00:02:36,000 --> 00:02:37,000
+wrappers.
+
+39
+00:02:37,000 --> 00:02:41,000
+But we are not going to have any C++/CLI content.
+
+40
+00:02:41,000 --> 00:59:00,000
+We're all about native code.
+

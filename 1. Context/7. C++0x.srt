@@ -1,0 +1,228 @@
+1
+00:00:03,000 --> 00:00:08,000
+Something else you may have heard or read is C++0x.
+
+2
+00:00:08,000 --> 00:00:12,000
+In order to understand what that is, we need to sort of back up a little
+
+3
+00:00:12,000 --> 00:00:15,000
+bit to who owns C++.
+
+4
+00:00:15,000 --> 00:00:17,000
+The answer is kind of nobody.
+
+5
+00:00:17,000 --> 00:00:20,000
+No one person sat down and invented it.
+
+6
+00:00:20,000 --> 00:00:28,000
+Bjarne, the father of C++, and a number of different compiler venders make C++ compilers,
+
+7
+00:00:28,000 --> 00:00:35,000
+but the owners of those compilers can't arbitrarily decide to change the language.
+
+8
+00:00:35,000 --> 00:00:40,000
+So, take a language like Visual Basic, which eventually became Visual Basic .NET,
+
+9
+00:00:40,000 --> 00:00:45,000
+that's just a language that Microsoft developed and owns, and if they want to add a
+
+10
+00:00:45,000 --> 00:00:48,000
+key word to it, they just add a key word to it.
+
+11
+00:00:48,000 --> 00:00:49,000
+C++ isn't like that.
+
+12
+00:00:49,000 --> 00:00:54,000
+It's got a standard that says, "Here are the key words in this language," and
+
+13
+00:00:54,000 --> 00:00:58,000
+the standard library that I mentioned is part of the standard.
+
+14
+00:00:58,000 --> 00:01:03,000
+So there's a standards committee, and they get together and decide whether
+
+15
+00:01:03,000 --> 00:01:06,000
+or not to add a key word or a piece of punctuation.
+
+16
+00:01:06,000 --> 00:01:11,000
+They decide whether or not to add some capabilities to the library.
+
+17
+00:01:11,000 --> 00:01:17,000
+The current version, before C++0x, was technically C++03, but most
+
+18
+00:01:17,000 --> 00:01:22,000
+people called it C++98, because 03 was just a little kind of tweaky update.
+
+19
+00:01:22,000 --> 00:01:26,000
+And to be honest, most people just called it C++ and didn't have any idea
+
+20
+00:01:26,000 --> 00:01:28,000
+what the year was from.
+
+21
+00:01:28,000 --> 00:01:32,000
+Back when the 03 version finished, there were people saying, "Okay, let's
+
+22
+00:01:32,000 --> 00:01:33,000
+get going on the next one.
+
+23
+00:01:33,000 --> 00:01:35,000
+"It's going to be 0 something; we don't know what.
+
+24
+00:01:35,000 --> 00:01:41,000
+"It'll be some time before 2009," and right away, the joke was, "Boy,
+
+25
+00:01:41,000 --> 00:01:45,000
+"I hope X doesn't need to be a hexadecimal digit!" now which, of course,
+
+26
+00:01:45,000 --> 00:01:46,000
+it did.
+
+27
+00:01:46,000 --> 00:01:50,000
+Eventually, it'll probably be ll or 12.
+
+28
+00:01:50,000 --> 00:01:54,000
+It's pretty much done now, has to go through some hoops, and it'll end
+
+29
+00:01:54,000 --> 00:01:56,000
+up being C++11 or C++12.
+
+30
+00:01:56,000 --> 00:02:00,000
+Of course, we'll just call it C++.
+
+31
+00:02:00,000 --> 00:02:04,000
+There's some new functionality added, some new key words, some new
+
+32
+00:02:04,000 --> 00:02:08,000
+punctuation, and a lot of very cool stuff in the library, and we'll just
+
+33
+00:02:08,000 --> 00:02:13,000
+use it, and we won't really remember a time when that wasn't there.
+
+34
+00:02:13,000 --> 00:02:16,000
+You know, I remember a time when certain key words weren't in C++, but
+
+35
+00:02:16,000 --> 00:02:20,000
+I don't go around saying, "Oh, hmm…oh, you're using that key word.
+
+36
+00:02:20,000 --> 00:02:22,000
+"Gees, that was only added in 1998.
+
+37
+00:02:22,000 --> 00:02:27,000
+"That's very modern of you," and it'll be the same with these C++0x key words.
+
+38
+00:02:27,000 --> 00:02:29,000
+They'll just be normal.
+
+39
+00:02:29,000 --> 00:02:32,000
+They'll just be what C++ had in them.
+
+40
+00:02:32,000 --> 00:02:37,000
+Now the standards committee is an interesting mix of people from compiler
+
+41
+00:02:37,000 --> 00:02:41,000
+vendors; people who just care about the language; people who use the language a lot;
+
+42
+00:02:41,000 --> 00:02:44,000
+people from academia; and so on.
+
+43
+00:02:44,000 --> 00:02:48,000
+And the compiler vendors, it's all been a completely open and transparent process.
+
+44
+00:02:48,000 --> 00:02:52,000
+When they could see, yes, we all agree on this, and no matter how long the whole
+
+45
+00:02:52,000 --> 00:02:56,000
+standard gets to put together, one particular aspect is going to be adopted
+
+46
+00:02:56,000 --> 00:03:00,000
+for sure and started to put that capability into the compilers.
+
+47
+00:03:00,000 --> 00:03:06,000
+So Visual Studio 2010, which has already been released, supports all of the library
+
+48
+00:03:06,000 --> 00:03:09,000
+changes in C++0x, and almost all of the language changes.
+
+49
+00:03:09,000 --> 00:03:16,000
+So if you're using Visual Studio 2010, including the Express Edition, you can
+
+50
+00:03:16,000 --> 00:03:22,000
+just work with C++0x features that I'm going to show you in this course, and
+
+51
+00:03:22,000 --> 00:03:27,000
+never particularly know whether they're added just now or whether they're from
+
+52
+00:03:27,000 --> 00:03:30,000
+ten years ago, or twenty years ago, or whatever.
+
+53
+00:03:30,000 --> 00:03:36,000
+Just to be on the safe side, when I show you something that's from C++0x, I
+
+54
+00:03:36,000 --> 00:03:41,000
+will point it out so that if you have some C++ experience from the past,
+
+55
+00:03:41,000 --> 00:03:45,000
+you say, "Wait, I don't think that's a key word," you'll get a little bit of
+
+56
+00:03:45,000 --> 00:03:48,000
+a reminder that's it's a new key word, so that you don't feel that something
+
+57
+00:03:48,000 --> 00:59:00,000
+strange is happened when you weren't looking.
+

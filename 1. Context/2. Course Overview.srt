@@ -1,0 +1,108 @@
+1
+00:00:01,000 --> 00:00:07,000
+I'd like to start by giving you an overview of how the course as a whole comes together.
+
+2
+00:00:07,000 --> 00:00:13,000
+We're going to start with context, why C++, what are all these words and terminologies, so
+
+3
+00:00:13,000 --> 00:00:16,000
+that you kind of feel you know where you stand, and then get you set up with the tools
+
+4
+00:00:16,000 --> 00:00:20,000
+that you need in order to follow along in the demos.
+
+5
+00:00:20,000 --> 00:00:24,000
+Once that's taken care of, you can get into writing some simple applications that
+
+6
+00:00:24,000 --> 00:00:25,000
+demonstrate the language basics.
+
+7
+00:00:25,000 --> 00:00:29,000
+You know, like any programming language, C++ lets you declare and work with the variables,
+
+8
+00:00:29,000 --> 00:00:34,000
+and it's an object-oriented language so you can make objects and define classes, and
+
+9
+00:00:34,000 --> 00:00:39,000
+you can control the flow of your application, like have a loop, do things over and over,
+
+10
+00:00:39,000 --> 00:00:44,000
+or check to see if a particular condition holds or not.
+
+11
+00:00:44,000 --> 00:00:48,000
+The syntax there is just something that we have to cover in order to build larger
+
+12
+00:00:48,000 --> 00:00:50,000
+applications together.
+
+13
+00:00:50,000 --> 00:00:54,000
+One of the things that's a little unusual about C++ is the way it actually lets
+
+14
+00:00:54,000 --> 00:00:59,000
+you extend the language to your own objects and classes, and so we have to talk a
+
+15
+00:00:59,000 --> 00:01:04,000
+little bit more about operators than we normally would.
+
+16
+00:01:04,000 --> 00:01:06,000
+Then we can start to talk about templates.
+
+17
+00:01:06,000 --> 00:01:10,000
+This is really something that sets C++ apart from other languages, and it is also
+
+18
+00:01:10,000 --> 00:01:13,000
+one of the cornerstones of C++.
+
+19
+00:01:13,000 --> 00:01:15,000
+It makes your life simpler.
+
+20
+00:01:15,000 --> 00:01:17,000
+It's not a complicated advanced feature.
+
+21
+00:01:17,000 --> 00:01:21,000
+It's something that you need to know really from the beginning, and then we have
+
+22
+00:01:21,000 --> 00:01:22,000
+to talk about Pointers.
+
+23
+00:01:22,000 --> 00:01:29,000
+A lot of people of scared of pointers, because they were taught Pointers the old-school way.
+
+24
+00:01:29,000 --> 00:01:34,000
+In Modern C++, the responsibility for memory management is not on the programmer.
+
+25
+00:01:34,000 --> 00:01:39,000
+There's a powerful Standard Library to help you perform common tasks, so it's all about
+
+26
+00:01:39,000 --> 00:01:45,000
+power, but not about danger, and understanding Pointers in that context gets you
+
+27
+00:01:45,000 --> 00:59:00,000
+positioned to really take advantage of what Modern C++ has to offer.
+

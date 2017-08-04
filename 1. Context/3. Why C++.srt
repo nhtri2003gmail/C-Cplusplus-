@@ -1,0 +1,240 @@
+1
+00:00:01,000 --> 00:00:05,000
+You've probably decided to give C++ a chance.
+
+2
+00:00:05,000 --> 00:00:09,000
+After all, you're willing to start going through this material with me.
+
+3
+00:00:09,000 --> 00:00:13,000
+But maybe you're still not a 100% sure that you want to learn it, or maybe even when
+
+4
+00:00:13,000 --> 00:00:16,000
+you know it, you're not sure if it's the right thing to use for the particular
+
+5
+00:00:16,000 --> 00:00:19,000
+project that you're taking on.
+
+6
+00:00:19,000 --> 00:00:21,000
+C++ is a general-purpose language.
+
+7
+00:00:21,000 --> 00:00:27,000
+It means you can use it for large, big metal applications that are doing number
+
+8
+00:00:27,000 --> 00:00:32,000
+crunching, you know, simulating the weather on the entire world or controlling
+
+9
+00:00:32,000 --> 00:00:34,000
+complicated real-time equipment.
+
+10
+00:00:34,000 --> 00:00:36,000
+You can use it for a web service.
+
+11
+00:00:36,000 --> 00:00:41,000
+You can use it for a client-based application that runs on your Windows' machine,
+
+12
+00:00:41,000 --> 00:00:45,000
+and shows people screens, and asks them questions, and puts the answers in the database.
+
+13
+00:00:45,000 --> 00:00:50,000
+You can use it for a tiny, little hand-held device of some kind, maybe a phone,
+
+14
+00:00:50,000 --> 00:00:51,000
+maybe something tablet-y, whatever.
+
+15
+00:00:51,000 --> 00:00:58,000
+Much, much smaller memory space, much, much smaller hard drive than that big
+
+16
+00:00:58,000 --> 00:01:03,000
+iron-crunching, but the same programming language the whole way.
+
+17
+00:01:03,000 --> 00:01:08,000
+So across a variety of platforms and across a variety of problem sets, C++ is a
+
+18
+00:01:08,000 --> 00:01:11,000
+language that's well tuned to all of those.
+
+19
+00:01:11,000 --> 00:01:14,000
+If you think of some other popular languages, maybe some other languages you know,
+
+20
+00:01:14,000 --> 00:01:18,000
+often people will describe them and say, "Well that's a great language for writing
+
+21
+00:01:18,000 --> 00:01:19,000
+a web application.
+
+22
+00:01:19,000 --> 00:01:23,000
+"That's a great language for writing a text-processing application.
+
+23
+00:01:23,000 --> 00:01:26,000
+"That's a great language for numerical number crunching."
+
+24
+00:01:26,000 --> 00:01:27,000
+Terrific.
+
+25
+00:01:27,000 --> 00:01:34,000
+C++ is a great language for all of those things and one that you can leverage your
+
+26
+00:01:34,000 --> 00:01:38,000
+knowledge of across a variety of different kinds of projects.
+
+27
+00:01:38,000 --> 00:01:42,000
+C++ is about speed, about power, about performance.
+
+28
+00:01:42,000 --> 00:01:48,000
+Where decisions are being made back in the language design level, very often the
+
+29
+00:01:48,000 --> 00:01:52,000
+question is, "Which way would be faster at run time?" and that's the way it got done.
+
+30
+00:01:52,000 --> 00:01:56,000
+Another real popular question is, "Which gives the programmer the most control?"
+
+31
+00:01:56,000 --> 00:02:01,000
+A lot of decisions are left up to the programmer in the language in order that you
+
+32
+00:02:01,000 --> 00:02:04,000
+can take the way that's faster in your particular case.
+
+33
+00:02:04,000 --> 00:02:06,000
+You know, whenever you talk about performance, the answer is often, "It depends," and
+
+34
+00:02:06,000 --> 00:02:12,000
+when a language makes a single choice, then the developer can't adapt to the
+
+35
+00:02:12,000 --> 00:02:15,000
+circumstances they find themselves in.
+
+36
+00:02:15,000 --> 00:02:19,000
+In C++, because there's tremendous fine-grain control over what happens, you can
+
+37
+00:02:19,000 --> 00:02:24,000
+choose the approach that makes your application perform as powerfully as possible,
+
+38
+00:02:24,000 --> 00:02:28,000
+and C++ is a very popular language.
+
+39
+00:02:28,000 --> 00:02:32,000
+Microsoft's Visual C++ team went out to do some numbers.
+
+40
+00:02:32,000 --> 00:02:37,000
+Who's still using Native C++?
+
+41
+00:02:37,000 --> 00:02:42,000
+And they discovered, Wow, a lot of people are using Native C++.
+
+42
+00:02:42,000 --> 00:02:47,000
+They went to a number of open-source repositories and just ran the numbers.
+
+43
+00:02:47,000 --> 00:02:50,000
+How many projects are written in each language?
+
+44
+00:02:50,000 --> 00:02:55,000
+To their, I've got to say, to their tremendous surprise, the number one language was C++,
+
+45
+00:02:55,000 --> 00:03:00,000
+and not just from Windows' projects, but across a variety of platforms.
+
+46
+00:03:00,000 --> 00:03:05,000
+And for college students, that's the language college students are using.
+
+47
+00:03:05,000 --> 00:03:08,000
+Not just for their assignments, but also for their personal projects.
+
+48
+00:03:08,000 --> 00:03:14,000
+And when you have a ten-million developer base as C++ does, you have a lot of great
+
+49
+00:03:14,000 --> 00:03:16,000
+libraries out there.
+
+50
+00:03:16,000 --> 00:03:23,000
+Libraries that provide general-purpose algorithms, containers, what-not, helpful things,
+
+51
+00:03:23,000 --> 00:03:28,000
+and specialized libraries that are all about image processing, or internet
+
+52
+00:03:28,000 --> 00:03:32,000
+transmission, or things that you and I have never even heard of, but someone's
+
+53
+00:03:32,000 --> 00:03:37,000
+gone and written an open-source C++ library that you can use to make that work simpler.
+
+54
+00:03:37,000 --> 00:03:41,000
+Leveraging other people's work is obviously another great path to power and
+
+55
+00:03:41,000 --> 00:03:44,000
+performance, because that's code that you didn't have to write.
+
+56
+00:03:44,000 --> 00:03:49,000
+People talk a lot about how C++ is the language for speed, and it is, but
+
+57
+00:03:49,000 --> 00:03:52,000
+that doesn't mean it's the language for just a small, select group of people.
+
+58
+00:03:52,000 --> 00:03:56,000
+It's an incredibly popular general-purpose language and investing the time
+
+59
+00:03:56,000 --> 00:04:02,000
+in learning it for one context may often bring you benefits in another context,
+
+60
+00:04:02,000 --> 00:59:00,000
+and that's why I think it's worth learning.
+

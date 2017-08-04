@@ -1,0 +1,64 @@
+1
+00:00:01,000 --> 00:00:04,000
+Welcome to Introduction to C++.
+
+2
+00:00:04,000 --> 00:00:08,000
+My name is Kate Gregory, and I'd like to introduce myself by telling people I've
+
+3
+00:00:08,000 --> 00:00:12,000
+been using C++ since before Microsoft had a C++ compiler.
+
+4
+00:00:12,000 --> 00:00:16,000
+That's well over 20 years, and, in that time, I've seen a lot of changes to the
+
+5
+00:00:16,000 --> 00:00:18,000
+language and to how people use it.
+
+6
+00:00:18,000 --> 00:00:22,000
+You know if you did a course in college 10 or 20 years where you know somebody
+
+7
+00:00:22,000 --> 00:00:24,000
+who did, and they told you about it, you might not recognize the C++ I'm going to
+
+8
+00:00:24,000 --> 00:00:26,000
+show you.
+
+9
+00:00:26,000 --> 00:00:29,000
+I'm going to teach you the basics you need to write good C++.
+
+10
+00:00:29,000 --> 00:00:33,000
+It's the most popular general-purpose programming language ever and one that's still
+
+11
+00:00:33,000 --> 00:00:36,000
+relevant and useful today.
+
+12
+00:00:36,000 --> 00:00:39,000
+To get started in this module, I'm going to tell you some of the advantages of C++
+
+13
+00:00:39,000 --> 00:00:42,000
+and why so many developers are using it.
+
+14
+00:00:42,000 --> 00:00:49,000
+You'll also see what C++ CLI is, what C++ OX is, and start to learn what Modern C++
+
+15
+00:00:49,000 --> 00:00:53,000
+is, and why it's the way to write C++ this century, and then you'll be ready to start
+
+16
+00:00:53,000 --> 00:59:00,000
+writing some code.
+

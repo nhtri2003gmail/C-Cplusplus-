@@ -1,0 +1,188 @@
+1
+00:00:01,000 --> 00:00:08,000
+So at least for a moment, bear with me that you agree that C++ is a great language
+
+2
+00:00:08,000 --> 00:00:12,000
+to learn and a great language to use, because it is so general purpose in cross
+
+3
+00:00:12,000 --> 00:00:16,000
+platform and powerful in performance, and that although you've heard it's hard,
+
+4
+00:00:16,000 --> 00:00:22,000
+you're prepared to believe that Modern C++ is maybe not hard.
+
+5
+00:00:22,000 --> 00:00:26,000
+Now if you already know C# or Java or some other language featuring brace
+
+6
+00:00:26,000 --> 00:00:30,000
+brackets and semicolons, you may feel like, "Okay, I can do this.
+
+7
+00:00:30,000 --> 00:00:33,000
+"I'm going to learn this hard thing," even though I've told you it's not real hard.
+
+8
+00:00:33,000 --> 00:00:39,000
+But, surely, someone who doesn't know a programming language already should never
+
+9
+00:00:39,000 --> 00:00:43,000
+start with something as terrifying as C++.
+
+10
+00:00:43,000 --> 00:00:45,000
+Well, I disagree.
+
+11
+00:00:45,000 --> 00:00:48,000
+I think C++ is a fine first language.
+
+12
+00:00:48,000 --> 00:00:54,000
+When I started to learn to program, we had less languages to choose from.
+
+13
+00:00:54,000 --> 00:00:58,000
+But even 20 years ago when I had been doing C++ for while, it was still
+
+14
+00:00:58,000 --> 00:01:01,000
+a really popular first programming language.
+
+15
+00:01:01,000 --> 00:01:04,000
+Generations of people learned C++ and got out in the world and turned into
+
+16
+00:01:04,000 --> 00:01:10,000
+decent programmers, whether they ended up working long-term in C++ or not.
+
+17
+00:01:10,000 --> 00:01:15,000
+It's certainly true that compared to the kind of C++ that was being taught 20 years
+
+18
+00:01:15,000 --> 00:01:18,000
+ago, C# and Java are way easier.
+
+19
+00:01:18,000 --> 00:01:25,000
+But you know, that's like comparing a car to like a wood-fired steam engine or
+
+20
+00:01:25,000 --> 00:01:28,000
+something, and thinking that that's saying anything about cars versus trains.
+
+21
+00:01:28,000 --> 00:01:32,000
+Modern C++ is not too hard for beginners.
+
+22
+00:01:32,000 --> 00:01:36,000
+Many of the things that used to have to be done right at the beginning around
+
+23
+00:01:36,000 --> 00:01:41,000
+memory management, and pointer arithmetic, and doing a whole lot of stuff by hand,
+
+24
+00:01:41,000 --> 00:01:43,000
+that's just not part of Modern C++.
+
+25
+00:01:43,000 --> 00:01:47,000
+You have a library that helps you, the same as those other languages have libraries
+
+26
+00:01:47,000 --> 00:01:52,000
+that help you, and you have some very powerful constricts to keep you safe while
+
+27
+00:01:52,000 --> 00:01:54,000
+you're having high-performance application.
+
+28
+00:01:54,000 --> 00:02:01,000
+So even if you don't know another programming language, why not get started with C++?
+
+29
+00:02:01,000 --> 00:02:04,000
+Now in this material, I'm not going to be covering basic programming concepts,
+
+30
+00:02:04,000 --> 00:02:10,000
+like what is a loop and why are things sometimes true and sometimes false, but
+
+31
+00:02:10,000 --> 00:02:15,000
+you don't need to feel that, "Oh, I can't learn C++ because I don't know some other
+
+32
+00:02:15,000 --> 00:02:16,000
+language."
+
+33
+00:02:16,000 --> 00:02:21,000
+It's fine if this is the first language that you take on.
+
+34
+00:02:21,000 --> 00:02:26,000
+If you do happen to know C# or Java, then you're going to learn C++ pretty
+
+35
+00:02:26,000 --> 00:02:29,000
+quickly, because you're going to recognize a lot and say, "Oh, that's just like what already knew!"
+
+36
+00:02:29,000 --> 00:02:36,000
+Now there are some things that are different, so don't get too overconfident.
+
+37
+00:02:36,000 --> 00:02:40,000
+If you know old school C++, if you're one of those people who says, "Well, you what?
+
+38
+00:02:40,000 --> 00:02:44,000
+"I've worked with this 10 years ago and now I have to come back to it," you may actually
+
+39
+00:02:44,000 --> 00:02:48,000
+have a tougher time, because you're going to have to unlearn some things that were
+
+40
+00:02:48,000 --> 00:02:52,000
+beaten into you that you really don't need to worry about so much anymore and
+
+41
+00:02:52,000 --> 00:02:56,000
+you can lax a little and trust a little, and I will show you how it's really
+
+42
+00:02:56,000 --> 00:02:59,000
+all going to be okay.
+
+43
+00:02:59,000 --> 00:03:02,000
+If you don't know any programming languages yet, welcome aboard.
+
+44
+00:03:02,000 --> 00:03:06,000
+You're going to have to look a little elsewhere for sort of concepts of programming
+
+45
+00:03:06,000 --> 00:03:11,000
+languages, but you don't need to already know C or C# or Java in order to grasp
+
+46
+00:03:11,000 --> 00:03:12,000
+the concept of C++.
+
+47
+00:03:12,000 --> 00:59:00,000
+You can learn it as your first language.
+
